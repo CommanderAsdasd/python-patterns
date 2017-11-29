@@ -25,6 +25,7 @@ class Transaction(object):
     states = []
 
     def __init__(self, deep, *targets):
+        # Это такая 
         self.deep = deep
         self.targets = targets
         self.commit()

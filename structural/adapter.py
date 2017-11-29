@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+ ginstrom#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """http://ginstrom.com/scribbles/2008/11/06/generic-adapter-class-in-python/"""
