@@ -13,6 +13,8 @@ class TC:
         print("setting tests")
         time.sleep(0,1)
         self._tm.prepareReporting()
+    
+    
 
 class Reporter:
 

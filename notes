@@ -1,0 +1,29 @@
+Monad. Монада это способ композиции функций которым нужен контекст в дополнении возвращаемому значению, (для I/O, 
+
+Из чего сделаны монады - из lift/unit, из Flatten/Join
+
+A monad is based on a simple symmetry - a way to wrap a value into a context, and a way to unwrap the value from the context
+Lift/Unit - a type lift from some type into the monad context
+Так, а что ещё можно написать в плане этой 
+
+
+Conclusion
+Monads are a way to compose
+To accomplish thi monads must Flattenfunctor are things you can map over
+monads you can flatMap overFunctions mapFunctors map with contextMonads flatten and map with context
+A monad is based on a simple symetry - way to wrap a value into context and unwrap value from the context
+
+lift/Unit a type lift from some type into monad contextFlatten/Join
+Monads also can Map with context poreserved 
+
+Combine flatten with mapMonads must satisfy three laws (monad laws)
+Left identity: unit(x).chain(f) ==== f(x)
+Right identity: m.chain(unit) ==== mapAssociativity m.chain(f).chin(g) ==== m.chain(x => f(x).chain(g))
+
+You don't have to understand 
+
+{// identity monadconst Id = value => ({
+    //Functor mapping
+})
+
+}
