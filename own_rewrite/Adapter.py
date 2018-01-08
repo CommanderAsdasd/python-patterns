@@ -20,7 +20,8 @@ class Adapter():
         self.__dict__.update(adapted_methods)
 
     def __getattr__(self, attr):
-        """All non-adapted calls are passed to object"""
+        """All non-adapted calls are passed to object.
+        Эта штука возвращает аттрибуты переданного объекта через getattr """
         return getattr(self.obj, attr)
 
     def original_dict(self):
